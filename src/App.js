@@ -1,13 +1,8 @@
+import { React, useState, useEffect } from "react";
 import "./App.css";
 
 const App = () => {
-  const name = "Alun";
-
-  return (
-    <div className="App">
-      <h1>Hello, {name}!</h1>
-    </div>
-  );
+  return <div className="App"></div>;
 };
 
 export default App;
